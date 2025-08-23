@@ -40,7 +40,7 @@
   align-items: center;      /* center horizontally */
   justify-content: center;  /* center vertically */
   gap: 16px;                /* spacing between book and text */
-  margin: 120px auto;       /* center block in page */
+  margin: 50px auto ;       /* center block in page */
   text-align: center;
 }
 
@@ -113,3 +113,12 @@
   opacity: 0.85;    /* subtle hover effect */
 }
 
+#bookReview {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.6;   /* improves readability */
+  max-width: 60ch;    /* keeps text from being too wide */
+  text-align: justify; /* optional: make text blocky */
+  color: #333;     
+  
+}

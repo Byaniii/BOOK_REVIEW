@@ -42,6 +42,29 @@ html, body {
   color: #111;             /* direct value (no variable) */
 }
 
-.message{
-  
+.message {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  max-width: 800px;       /* keeps line length readable */
+  margin: 2rem auto;      /* centers the block with spacing above/below */
+  padding: 1.5rem;        /* adds breathing room inside */
+  font-size: 1.2rem;      /* slightly larger text */
+  line-height: 1.7;       /* improves readability */
+  color: #333;            /* softer black for eyes */
+  text-align: justify;    /* aligns text neatly */
+  background: #fafafa;    /* subtle background */
+  border-radius: 6px;     /* soft corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* subtle shadow */
 }
+.message a {
+  color: #0066cc;         /* cleaner link color */
+  text-decoration: none;  /* removes underline */
+  border-bottom: 1px solid #0066cc; /* subtle underline effect */
+}
+.message a:hover {
+  color: #004999;
+  border-bottom-color: #004999;
+}
+
+
+
+

@@ -53,6 +53,7 @@ html, body {
   padding: 0 24px;
 }
 
+
 .hero-left,
 .hero-right {
   flex: 1;   
@@ -62,14 +63,14 @@ html, body {
 /* Left column text */
 .page-title {
   letter-spacing: 2px;
-  font-size: clamp(28px, 3.2vw, 44px);
+  font-size: clamp(18px, 2.5vw, 25px);
   margin-bottom: 8px;
   text-transform: uppercase;
 }
 
 .page-subtitle {
   letter-spacing: 2px;
-  font-size: clamp(18px, 2vw, 28px);
+  font-size: clamp(24px, 3vw, 40px);
   margin-bottom: 24px;
 }
 
