@@ -122,3 +122,9 @@
   color: #333;     
   
 }
+
+.foot{
+  width: 100%;          /* make footer full width */
+  text-align: center;   /* center its contents */
+  margin: 20px 0;       /* optional spacing */
+}
