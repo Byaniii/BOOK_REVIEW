@@ -1,0 +1,115 @@
+/* ------------------- Navbar ------------------- */
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;                /* space between links */
+  padding: 8px 0;
+}
+
+.topnav a {
+  color: black;
+  padding: 15px 30px;
+  font-size: 23px;
+  position: relative;
+  text-decoration: none;
+}
+
+.topnav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+  width: 0;
+  height: 2px; 
+  background-color: black; 
+  transition: width 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+.topnav a:hover::after {
+  width: 100%;             /* underline grows on hover */
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;   /* stack book and text vertically */
+  align-items: center;      /* center horizontally */
+  justify-content: center;  /* center vertically */
+  gap: 16px;                /* spacing between book and text */
+  margin: 120px auto;       /* center block in page */
+  text-align: center;
+}
+
+.hero-right {
+  margin: 0;                /* remove auto margins */
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* keep text aligned under book */
+}
+
+
+.hero-right:hover{
+  opacity: 0.85;
+}
+
+/* Left: book cover (no spin) */
+.book {
+  position: relative;
+  width: clamp(140px, 18vw, 200px);
+  height: calc(clamp(140px, 18vw, 200px) * 1.5); 
+  margin: 0 auto;
+  perspective: none;
+  animation: none;
+  transform: none;
+  transform-style: flat;
+}
+
+.book-cover {
+  position: absolute;
+  inset: 0;
+  backface-visibility: visible;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  display: block;
+}
+
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Right: title & author */
+.book-title,
+.book-author {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.book-title  { 
+  font-size: clamp(16px, 2vw, 24px); 
+  font-weight: 600; 
+}
+
+.book-author { 
+  font-size: clamp(12px, 1.5vw, 18px); 
+  font-weight: 500; 
+  margin-top: 6px; 
+}
+
+
+.book-link {
+  text-decoration: none;
+  color: inherit;   /* keeps original text color */
+}
+
+.book-link:hover {
+  opacity: 0.85;    /* subtle hover effect */
+}
+

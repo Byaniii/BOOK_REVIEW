@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/book_style.css">
+    <link rel="icon" type="image/png" href="book_covers/favicon.png?v=1">
+    <title>BOOK REVIEW</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+    </header>
+
+<main class="hero">
+  <section style="width:100%;">
+    <div id="booksGrid"></div>
+  </section>
+</main>
+
+<main class="hero">
+  <section style="width:100%;">
+    <div id="booksGrid"></div>
+  </section>
+</main>
+
+<script src="books.js"></script>
+<script>
+  const grid = document.getElementById('booksGrid');
+
+  // Quick grid layout (you can move to CSS later)
+  Object.assign(grid.style, {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+    gap: '24px',
+    maxWidth: '1100px',
+    margin: '120px auto',
+  });
+
+  // Loop through all books in BOOKS
+  for (const [slug, b] of Object.entries(BOOKS)) {
+    const card = document.createElement('a');
+    card.href = `book.html?title=${encodeURIComponent(slug)}`;
+    card.className = 'book-link';
+    card.innerHTML = `
+      <div class="book">
+        <div class="book-cover front">
+          <img src="${b.cover}" alt="${b.title} book cover">
+        </div>
+      </div>
+      <h3 class="book-title" style="text-align:center;margin-top:12px;">
+        ${b.title.toUpperCase()}
+      </h3>
+      <p class="book-author" style="text-align:center;margin:4px 0 0;">
+        ${b.author.toUpperCase()}
+      </p>
+    `;
+    grid.appendChild(card);
+  }
+</script>
+
+
+</body>
+</html>

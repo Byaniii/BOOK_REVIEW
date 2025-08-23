@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Review</title>
+  <link rel="stylesheet" href="css/book_style.css" />
+    <link rel="icon" type="image/png" href="book_covers/favicon.png?v=1">
+</head>
+<body>
+  <header>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </div>
+  </header>
+
+  <main class="hero">
+    <!-- Left: cover -->
+    <section class="hero-left">
+      <div class="book">
+        <div class="book-cover front">
+          <img id="bookCover" src="" alt="Book cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- Right: info -->
+    <section class="hero-right">
+      <h1 id="bookTitle" class="book-title"></h1>
+      <h2 id="bookAuthor" class="book-author"></h2>
+      <article id="bookReview" style="margin-top:16px;"></article>
+    </section>
+  </main>
+
+  <!-- Load the data, then fill the page -->
+  <script src="books.js"></script>
+  <script>
+    // 1) Read the slug from the URL, e.g. book.html?title=no-longer-human
+    const params = new URLSearchParams(location.search);
+    const slug = params.get('title');   // "no-longer-human"
+
+    // 2) Look it up in BOOKS (you don't need getBook; this is fine)
+    const book = BOOKS[slug];
+
+    // 3) If found, fill the page; else show an error
+    if (!book) {
+      document.getElementById('bookTitle').textContent = 'Book not found';
+    } else {
+      document.title = `${book.title} • Book Review`;
+      document.getElementById('bookCover').src = book.cover;
+      document.getElementById('bookCover').alt = `${book.title} cover`;
+      document.getElementById('bookTitle').textContent = book.title.toUpperCase();
+      document.getElementById('bookAuthor').textContent = book.author.toUpperCase();
+      document.getElementById('bookReview').textContent = book.review || '';
+    }
+  </script>
+</body>
+</html>
