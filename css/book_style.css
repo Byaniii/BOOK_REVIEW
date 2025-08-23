@@ -128,3 +128,19 @@
   text-align: center;   /* center its contents */
   margin: 20px 0;       /* optional spacing */
 }
+
+
+@media (max-width: 430px) {
+  .topnav {
+    flex-wrap: wrap;          /* allow 2 lines if needed */
+    gap: 6px;
+    padding: 10px 12px;
+  }
+  .topnav a {
+    font-size: 16px;          /* smaller text */
+    padding: 10px 14px;       /* smaller hit area horizontally */
+  }
+  .topnav a::after {          /* hover underline is useless on touch */
+    display: none;
+  }
+}
