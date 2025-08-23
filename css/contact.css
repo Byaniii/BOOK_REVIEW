@@ -42,3 +42,6 @@ html, body {
   color: #111;             /* direct value (no variable) */
 }
 
+.main{
+  text-align: center;
+}

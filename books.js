@@ -4,7 +4,7 @@ const BOOKS = {
     title: "No Longer Human",
     author: "Osamu Dazai",
     cover: "book_covers/human.jpg",          
-    review: `The youtuber Felix Kjellberg has also given his sentiment after reading "No Longer Human" by Osamu Dazai, alongside the revelation of the author's
+    review: `The youtuber Felix Kjellberg (Pewdiepie) has also given his sentiment after reading "No Longer Human" by Osamu Dazai, alongside the revelation of the author's
     story and personal experience. No Longer Human truly embodies the story of misfortune taking life piece by piece. Embodying the title of the truly
     tragic Japanese writer. In the author's struggles with suicide attempts whilst studying in Tokyo, involved with politics and literature circles. 
     Even experiencing failed suicide attempts by himself and sometimes with lovers. Struggling with substance abuse and intense feelings of alienation.
@@ -37,7 +37,7 @@ What I found striking is how modern it feels despite being nearly 2,000 years ol
 
 If there’s a flaw, it’s repetition — many passages circle back to the same ideas. But maybe that’s the point: wisdom isn’t a revelation you read once; it’s a practice you revisit daily.
 
-Meditations isn’t a book you finish and shelve. It’s a companion you return to, especially when life feels overwhelming. As Marcus himself reminds us: “You have power over your mind — not outside events. Realize this, and you will find strength.” (Everything is chatgpt generated. Got lazy hehe.)`
+Meditations isn’t a book you finish and shelve. It’s a companion you return to, especially when life feels overwhelming. As Marcus himself reminds us: “You have power over your mind — not outside events. Realize this, and you will find strength.” (Chatgpt generated. Got lazy hehe. I change later swear)`
   },
 
   "The_Hidden_Habits_of_Genius": {
