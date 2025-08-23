@@ -1,0 +1,44 @@
+/* ------------------- Navbar ------------------- */
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;                /* space between links */
+  padding: 8px 0;
+}
+
+.topnav a {
+  color: black;
+  padding: 15px 30px;
+  font-size: 23px;
+  position: relative;
+  text-decoration: none;
+}
+
+.topnav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+  width: 0;
+  height: 2px; 
+  background-color: black; 
+  transition: width 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+.topnav a:hover::after {
+  width: 100%;             /* underline grows on hover */
+}
+
+/* ------------------- Page Basics ------------------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
+  color: #111;             /* direct value (no variable) */
+}
+
