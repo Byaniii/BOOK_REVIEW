@@ -29,15 +29,7 @@ const BOOKS = {
     title: "Meditations",
     author: "Marcus Aurelius",
     cover: "book_covers/meditations.jpg",
-    review: `Meditations isn’t a polished “book” in the usual sense; it’s the private journal of a Roman emperor writing to himself. That’s what makes it timeless. Marcus isn’t trying to impress anyone — he’s reminding himself of discipline, humility, and how to stay calm in a world full of chaos.
-
-The central theme is Stoicism: you can’t control what happens to you, only how you respond. Life is short, people are flawed, and suffering is unavoidable — but character, self-restraint, and perspective can turn even hardship into strength.
-
-What I found striking is how modern it feels despite being nearly 2,000 years old. Marcus wrestles with procrastination, pride, and anger the same way we do today. Some entries read almost like therapy notes, others like sharp epigrams you want to underline and carry with you.
-
-If there’s a flaw, it’s repetition — many passages circle back to the same ideas. But maybe that’s the point: wisdom isn’t a revelation you read once; it’s a practice you revisit daily.
-
-Meditations isn’t a book you finish and shelve. It’s a companion you return to, especially when life feels overwhelming. As Marcus himself reminds us: “You have power over your mind — not outside events. Realize this, and you will find strength.” (Chatgpt generated. Got lazy hehe. I change later swear)`
+    review: "stadby for my review :)"
   },
 
   "The_Hidden_Habits_of_Genius": {
