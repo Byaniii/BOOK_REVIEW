@@ -93,12 +93,12 @@
 }
 
 .book-title  { 
-  font-size: clamp(16px, 2vw, 24px); 
+  font-size: clamp(10px, 2vw, 14px); 
   font-weight: 600; 
 }
 
 .book-author { 
-  font-size: clamp(12px, 1.5vw, 18px); 
+  font-size: clamp(10px, 1.5vw, 12px); 
   font-weight: 500; 
   margin-top: 6px; 
 }
@@ -126,7 +126,8 @@
 .foot{
   width: 100%;          /* make footer full width */
   text-align: center;   /* center its contents */
-  margin: 20px 0;       /* optional spacing */
+  margin: 20px 0; 
+  font-size: clamp(10px, 2vw, 12px);        /* optional spacing */
 }
 
 

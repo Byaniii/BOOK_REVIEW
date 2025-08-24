@@ -29,7 +29,19 @@ const BOOKS = {
     title: "Meditations",
     author: "Marcus Aurelius",
     cover: "book_covers/meditations.jpg",
-    review: "stadby for my review :)"
+    review: `Stoicism was the first philosophical idea I was introduced to. I assume the same goes for many others. Meditations is one of the few 
+    known books which embodies the art of stoicism. For those that may not know what the term "stoicism" means, stoicism refers to the philosophical
+    idea that to accept external events which are the changes that occur in life, as part of the natural course of nature. Advocating that unfortunate vicissitudes are inevitable. With the numerous
+    external events life has prepared that is beyond our reach, stoicism teaches us the disparity of things that are within our control and externals events beyond our control, emphasizing the need to focus 
+    on the former rather than latter. Depression, grief, pain, loneliness, some of the lot that contributes to life's sorrow, although unavoidable, stoicism does not deny them but further advocates the useless need in lamenting 
+    our losses, to adhere towards acceptance. Suffering may be inevitable, but the gravity of our suffering is dictated by how much our mental capacity allows it to. We may continue to feels sorrow 
+    and lament withering days, but with the philosophical idea that stoicism proposes, our emotions are within our reach, and therefore, suffering is not required to be taken to extremes. During my time in discovering 
+    stoicism and later down the road, first, reading the "Discourses and Selective Writtings" of Epictetus which I later then tend to "Meditations" by Aurelius due to the difficult linguistics used in the earlier philosophical book. In my opinion,
+    modern self-help books adhere towards the same philosophy as stoicism does, alongside numerous therapeutic practices in psychiatry. Practicing a stoic lifestyle from both a philosophical and emotional standpoint 
+    is nothing less than logical. We as humans are bound by emotions. When met with loss, we grieve in response. However, some individuals take themselves further. As grief involves the materialistic 
+    presence of both objects and of people. The greatest practitioner of stoicism is not someone that is immune to hardship, but is the one capable of embracing the inevitable. Met with clarity, and refuses to be broken by it.
+    In that sense, the art of stoicism is not the act of endurance but the practice of philosophical freedom of ultimately life itself.
+    `
   },
 
   "The_Hidden_Habits_of_Genius": {
